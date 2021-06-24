@@ -1,0 +1,22 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+    .new-input{
+        width: 50%;
+    }
+}
+/* .rounded-circle{
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    border-radius: 50% !important;
+} */
+
+.rounded-circle{
+    width: 128px;
+    height: 128px;
+}
